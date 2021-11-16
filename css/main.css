@@ -1,0 +1,58 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.display{
+    height:200px;
+    width:200px;
+    /* background-color:#ff0000; */
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.control-panel{
+    height:200px;
+    width: 650px;
+    /* background-color: cadetblue; */
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons{
+    height:75px;
+    width: 75px;
+    border-radius: 10px;;
+    background-color:gray;
+    color:white;
+    font-size: 50px;
+}
+
+#number-input{
+    height: 60px; 
+    width:250px;
+    border: 5px solid grey;
+    border-radius: 10px;
+    margin: 15px;
+    font-size: 70px;
+    text-align: center;
+}
+
+h1{
+    font-size: 100px;
+}
